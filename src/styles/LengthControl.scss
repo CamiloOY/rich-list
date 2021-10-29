@@ -1,0 +1,44 @@
+// #break-lc {
+// 	margin-left: 2.5em;
+// }
+
+input[type="number"] {
+	outline: none !important;
+	width: 75px;
+	height: 1.6em;
+	// text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button {
+	display: none;
+}
+
+.LengthControl {
+	// display: inline-block;
+	width: max-content;
+}
+
+// .LengthControlTitle {
+// 	font-size: 2em;
+// 	margin-bottom: 0;
+// }
+
+.lc-button {
+	font-size: 1.5em;
+	cursor: pointer;
+	// margin: 0 0.25em;
+	background-color: #ffffff;
+	border: none;
+	outline: none !important;
+	// color: #228b22;
+}
+
+.length {
+	font-size: 1.5em;
+	text-align: center;
+	// font-weight: 500;
+}

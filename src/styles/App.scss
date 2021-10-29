@@ -1,0 +1,62 @@
+$primary: hsl(120, 76%, 35%);
+$secondary: hsl(6, 93%, 65%);
+// $link-color: $secondary;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+*:focus {
+	outline: none;
+	box-shadow: none !important;
+}
+
+*::selection {
+	background-color: $primary;
+	color: #ffffff;
+}
+
+.link-button {
+	width: max-content;
+}
+
+.ExpensiveItem {
+	border-left-color: $primary;
+	border-left-width: 2px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.card {
+	width: 90%;
+}
+
+.lc-button {
+	color: $secondary;
+}
+
+.item-link:hover {
+	// color: #007BFF;
+}
+
+.toggleExpansionButton {
+	color: $secondary;
+}
+
+.toggleExpansionButton:hover {
+	color: lighten($secondary, 10%);
+}
+
+input[type="number"] {
+	display: inline-block;
+	outline: none !important;
+	width: 75px;
+	height: 1.6em;
+	// text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button {
+	display: none;
+}
